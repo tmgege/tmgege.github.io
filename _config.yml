@@ -31,4 +31,4 @@ timezone: Asia/Shanghai
 # 强制处理文件（有时候我们的一些文件的名字由于不在 jekyll 处理的文件名字范围内,这时候就需要强制处理这些文件了.比如 .htaccess 文件.）
 # include: [DIR, FILE, ...]
 
-paginate: 5
+paginate: 10
