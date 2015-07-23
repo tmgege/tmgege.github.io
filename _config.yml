@@ -1,7 +1,7 @@
 # Site settings
 title: TMGG
 email: tmmkf@126.com
-description: TMGG的博客 正规杂牌军
+description: TMGG的博客
 # > # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
 #   line in _config.yml. It will appear in your document head meta (for
@@ -21,3 +21,14 @@ markdown: kramdown
 highlighter: pygments
 # highlighter: rouge
 # highlighter: false
+
+encoding: utf-8
+timezone: Asia/Shanghai
+
+# 忽略文件（指定目录或文件不由jekyll处理）
+# exclude: [DIR, FILE, ...]
+
+# 强制处理文件（有时候我们的一些文件的名字由于不在 jekyll 处理的文件名字范围内,这时候就需要强制处理这些文件了.比如 .htaccess 文件.）
+# include: [DIR, FILE, ...]
+
+paginate: 5
