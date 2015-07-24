@@ -14,7 +14,8 @@ excerpt: jekyll是一个静态网站生成器，通过标记语言（markdown或
 jekyll是一个静态网站生成器，通过标记语言（markdown或textile）和模板引擎liquid转换生成网页.
 你可以通过jekyll在GitHub上创建自己的博客或项目主页。
 
-[如何在github上搭建一个独立博客](http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/)
+* [如何在github上搭建一个独立博客](http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/)
+* [一步步在github上创建博客主页](http://www.pchou.info/web-build/2013/01/09/build-github-blog-page-06.html)
 
 ## 目录结构介绍
 
