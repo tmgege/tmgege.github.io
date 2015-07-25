@@ -68,6 +68,7 @@ layout: default
 </code></pre>
 
 ### _site
+
 jekyll 生成网站输出的地方, 一般需要在 .gitignore 中屏蔽掉这个目录.
 
 ### index.html
@@ -83,6 +84,7 @@ jekyll 生成网站输出的地方, 一般需要在 .gitignore 中屏蔽掉这�
 ## 模板语法
 
 ### 头部定义
+
 头部定义主要用于指定模板(layout)和定义一些变量, 比如 标题(title), 描述(description), 分类(category/categories), tags, 是否发布(published), 自定义变量.
 <pre><code>---
 layout:     post
@@ -94,12 +96,14 @@ published: true # default true
 </code></pre>
 
 ### 全局根结点
+
 * site （_config.yml中的配置信息，通过site.[具体配置项]来引用）
 * page （具体page的页面信息，通过page.[具体项]来引用）
 * content （在模板中用于引入子节点的内容）
 * paginator （分页信息）
 
 ### site下的变量
+
 * site.time 运行 jekyll 的时间
 * site.pages 所有页面
 * site.posts 所有文章
@@ -114,6 +118,7 @@ published: true # default true
 * site.[CONFIGURATION_DATA] 自定义变量
 
 ### page下的变量
+
 * page.content 页面的内容
 * page.title 标题
 * page.excerpt 摘要
@@ -127,6 +132,7 @@ published: true # default true
 * page.previous 上一篇文章
 
 ### paginator下的变量
+
 * paginator.per_page 每一页的数量
 * paginator.posts 这一页的数量
 * paginator.total_posts 所有文章的数量
